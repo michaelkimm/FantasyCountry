@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2534509031146625877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212593369762933467}
+  - component: {fileID: 3993441703159477835}
+  m_Layer: 0
+  m_Name: RollerCoaster_Wagon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1212593369762933467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534509031146625877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5037507621257400686}
+  - {fileID: 4322368386055985052}
+  - {fileID: 6089358169976470069}
+  - {fileID: 3674847025867945460}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3993441703159477835
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534509031146625877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 391bd127e0dbc354b9c9df415a4b9855, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &34243704291103506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1212593369762933467}
+    m_Modifications:
+    - target: {fileID: 5012922045358005852, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_Name
+      value: RollerCoaster_Wagon_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2327329
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10524005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2167536
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50af155c2354b7f4ca75689b5b0a171a, type: 3}
+--- !u!4 &5037507621257400686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+    type: 3}
+  m_PrefabInstance: {fileID: 34243704291103506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1025871187934310674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1212593369762933467}
+    m_Modifications:
+    - target: {fileID: 3873240048708663982, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_Name
+      value: RollerCoaster_Wagon_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2327329
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10524005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2167536
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea090dbe4019cdc4aa23613a04807424, type: 3}
+--- !u!4 &4322368386055985052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3873240048709084814, guid: ea090dbe4019cdc4aa23613a04807424,
+    type: 3}
+  m_PrefabInstance: {fileID: 1025871187934310674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1229699251863271497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1212593369762933467}
+    m_Modifications:
+    - target: {fileID: 5012922045358005852, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_Name
+      value: RollerCoaster_Wagon_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13273287
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10524005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2167536
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50af155c2354b7f4ca75689b5b0a171a, type: 3}
+--- !u!4 &6089358169976470069 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229699251863271497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8606053347445454728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1212593369762933467}
+    m_Modifications:
+    - target: {fileID: 5012922045358005852, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_Name
+      value: RollerCoaster_Wagon_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.96726716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.10524005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2167536
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50af155c2354b7f4ca75689b5b0a171a, type: 3}
+--- !u!4 &3674847025867945460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5012922045358293628, guid: 50af155c2354b7f4ca75689b5b0a171a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8606053347445454728}
+  m_PrefabAsset: {fileID: 0}

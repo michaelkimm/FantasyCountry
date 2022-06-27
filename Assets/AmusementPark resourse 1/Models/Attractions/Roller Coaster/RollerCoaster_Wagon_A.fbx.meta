@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: c6904c32aff518f4a9e6edad959fe435
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: RC_Wagon_A_Wheels
+    100002: RC_Wagon_A_Wheels.001
+    100004: RC_Wagon_A_Wheels_L
+    100006: RC_Wagon_A_Wheels_L.001
+    100008: RC_Wagon_A_Wheels_L.002
+    100010: RC_Wagon_A_Wheels_L.003
+    100012: RC_Wagon_Belt
+    100014: RC_Wagon_Belt.001
+    100016: RC_Wagon_Lock
+    100018: RC_Wagon_Lock.001
+    100020: //RootNode
+    400000: RC_Wagon_A_Wheels
+    400002: RC_Wagon_A_Wheels.001
+    400004: RC_Wagon_A_Wheels_L
+    400006: RC_Wagon_A_Wheels_L.001
+    400008: RC_Wagon_A_Wheels_L.002
+    400010: RC_Wagon_A_Wheels_L.003
+    400012: RC_Wagon_Belt
+    400014: RC_Wagon_Belt.001
+    400016: RC_Wagon_Lock
+    400018: RC_Wagon_Lock.001
+    400020: //RootNode
+    2100000: Park_Mat
+    2300000: RC_Wagon_A_Wheels
+    2300002: RC_Wagon_A_Wheels.001
+    2300004: RC_Wagon_A_Wheels_L
+    2300006: RC_Wagon_A_Wheels_L.001
+    2300008: RC_Wagon_A_Wheels_L.002
+    2300010: RC_Wagon_A_Wheels_L.003
+    2300012: RC_Wagon_Belt
+    2300014: RC_Wagon_Belt.001
+    2300016: RC_Wagon_Lock
+    2300018: RC_Wagon_Lock.001
+    2300020: //RootNode
+    3300000: RC_Wagon_A_Wheels
+    3300002: RC_Wagon_A_Wheels.001
+    3300004: RC_Wagon_A_Wheels_L
+    3300006: RC_Wagon_A_Wheels_L.001
+    3300008: RC_Wagon_A_Wheels_L.002
+    3300010: RC_Wagon_A_Wheels_L.003
+    3300012: RC_Wagon_Belt
+    3300014: RC_Wagon_Belt.001
+    3300016: RC_Wagon_Lock
+    3300018: RC_Wagon_Lock.001
+    3300020: //RootNode
+    4300000: RollerCoaster_Wagon_A
+    4300002: RC_Wagon_Belt
+    4300004: RC_Wagon_Belt.001
+    4300006: RC_Wagon_Lock
+    4300008: RC_Wagon_Lock.001
+    4300010: RC_Wagon_A_Wheels.001
+    4300012: RC_Wagon_A_Wheels
+    4300014: RC_Wagon_A_Wheels_L
+    4300016: RC_Wagon_A_Wheels_L.001
+    4300018: RC_Wagon_A_Wheels_L.003
+    4300020: RC_Wagon_A_Wheels_L.002
+    6400000: RC_Wagon_A_Wheels
+    6400002: RC_Wagon_A_Wheels.001
+    6400004: RC_Wagon_A_Wheels_L
+    6400006: RC_Wagon_A_Wheels_L.001
+    6400008: RC_Wagon_A_Wheels_L.002
+    6400010: RC_Wagon_A_Wheels_L.003
+    6400012: RC_Wagon_Belt
+    6400014: RC_Wagon_Belt.001
+    6400016: RC_Wagon_Lock
+    6400018: RC_Wagon_Lock.001
+    6400020: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Park_Mat
+    second: {fileID: 2100000, guid: 766a0434d6f0475429aa4d37667e5e1e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
